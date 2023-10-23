@@ -6,8 +6,12 @@ import Button from "./Button";
 const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
-      <Link href="/">
-        <Image src="/romc-logo.png" alt="logo" width={180} height={50} />
+      <Link href="/" className="flex items-center gap-2">
+        <Image src="/romc-logo.svg" alt="logo" width={80} height={80} />
+        <p className="text-3xl font-bold text-blue-50 max-sm:hidden">
+          Royal Oak <br />
+          Medical Centre
+        </p>
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">

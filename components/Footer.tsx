@@ -9,12 +9,7 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image
-              src="/romc-vertical-logo.png"
-              alt="logo"
-              width={74}
-              height={29}
-            />
+            <Image src="/romc-logo.svg" alt="logo" width={100} height={100} />
           </Link>
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
@@ -51,8 +46,11 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2023 Royal Oack Medical Centre | All rights reserved <br />
-          Designed by: jrom
+          2023 Royal Oak Medical Centre | All rights reserved <br />
+          Designed by:{" "}
+          <Link href="https://jerommiole.com" target="_blank">
+            jerommiole
+          </Link>
         </p>
       </div>
     </footer>
