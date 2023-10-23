@@ -18,32 +18,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Real maps can be offline",
+    title: "Standard",
     icon: "/map.svg",
-    variant: "green",
+    variant: "blue",
     description:
-      "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
+      "Standard appointments are scheduled for 10-15 minute intervals. Our fees are deliberately kept low and are based on consultations where the consultation and any related tasks (referrals, reports, result follow-up, etc.) are completed in 15 minutes.",
   },
   {
-    title: "Set an adventure schedule",
+    title: "Longer",
     icon: "/calendar.svg",
-    variant: "green",
+    variant: "blue",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "If you think you need more than a 15-minute appointment, please remember to book a longer appointment or plan to return for a second appointment, which will incur an extra fee.",
   },
   {
-    title: "Technology using augment reality",
+    title: "Medicals",
     icon: "/tech.svg",
-    variant: "green",
+    variant: "blue",
     description:
-      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
+      "Insurance medicals require 1/2 hour appointments. For any other medicals, please ask the receptionist. Please be specific.",
   },
   {
-    title: "Many new locations every month",
+    title: "Urgent",
     icon: "/location.svg",
-    variant: "orange",
+    variant: "blue",
     description:
-      "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
+      "If you are acutely unwell, please ring the surgery and ask to speak to the nurse, who will make arrangements. We reserve a small number of same-day appointments for patients who become unwell on the day.",
   },
 ];
 
