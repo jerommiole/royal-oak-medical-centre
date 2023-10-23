@@ -1,16 +1,14 @@
+import Book from "@/components/Book";
+import About from "@/components/About";
 import Camp from "@/components/Camp";
-import Features from "@/components/Appointment";
-import GetApp from "@/components/Book";
 import Guide from "@/components/Guide";
-import Hero from "@/components/Hero";
-import React from "react";
+import Doctor from "@/components/Doctor";
 
 const Page = () => {
   return (
     <>
-      <Guide />
-      <Features />
-      <GetApp />
+      <About />
+      <Doctor />
     </>
   );
 };

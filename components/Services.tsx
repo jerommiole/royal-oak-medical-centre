@@ -11,9 +11,9 @@ const Services = () => {
         </p>
         <h2 className="bold-40 lg:bold-64">Our Comprehensive Services</h2>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[620px]">
-          At Royal Oak Medical Centre, we're dedicated to offering comprehensive
-          healthcare services to patients of all ages. Our focus is on
-          delivering high-quality care without compromising affordability,
+          At Royal Oak Medical Centre, we&#39;re dedicated to offering
+          comprehensive healthcare services to patients of all ages. Our focus
+          is on delivering high-quality care without compromising affordability,
           ensuring your health is our top priority.
         </p>
         <div className="py-12 flex">
