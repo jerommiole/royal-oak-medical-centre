@@ -2,11 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Schedule = () => {
+const OperatingHours = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image src="/romc-logo.png" alt="camp" width={50} height={50} />
         <p className="uppercase regular-18 -mt-1 mb-3 text-blue-50">
           Convenient Hours for Your Health
         </p>
@@ -67,6 +66,12 @@ const Schedule = () => {
                 <p className="bold-16 text-blue-50">9:00AM - 12:00PM</p>
               </div>
             </div>
+            <div className="flex w-full flex-col">
+              <p className="bold-20 mt-2">Sunday</p>
+              <div className="flexBetween w-full">
+                <p className="bold-16 text-blue-50">Closed</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -74,4 +79,4 @@ const Schedule = () => {
   );
 };
 
-export default Schedule;
+export default OperatingHours;

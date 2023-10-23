@@ -47,6 +47,56 @@ export const FEATURES = [
   },
 ];
 
+// SERVICES SECTION
+export const SERVICES = [
+  {
+    title: "Primary Care Services",
+    icon: "/map.svg",
+    variant: "blue",
+    listItems: [
+      "General Practice and Family Care",
+      "Well Child Checks",
+      "Well Woman and Well Man Checks",
+      "Immunizations and Influenza Vaccinations",
+      "Repeat Prescriptions",
+      "Accident Care",
+    ],
+  },
+  {
+    title: "Specialized Services",
+    icon: "/calendar.svg",
+    variant: "blue",
+    listItems: [
+      "Cervical Smear Tests and Breast Checks",
+      "Diabetes Clinics",
+      "ECG (Electrocardiogram)",
+      "Shared Maternity Care",
+    ],
+  },
+  {
+    title: "Clinical Procedures",
+    icon: "/tech.svg",
+    variant: "blue",
+    listItems: [
+      "Cervical Smear Tests and Breast Checks",
+      "Diabetes Clinics",
+      "ECG (Electrocardiogram)",
+      "Shared Maternity Care",
+    ],
+  },
+  {
+    title: "Health and Wellness Services",
+    icon: "/location.svg",
+    variant: "blue",
+    listItems: [
+      "Contraception",
+      "Nurse Lead Clinics",
+      "Nutrition Advice",
+      "Skin Cancer Checks",
+    ],
+  },
+];
+
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
@@ -64,7 +114,7 @@ export const FOOTER_LINKS = [
     links: [
       {
         text: "Enrolling with a PHO",
-        url: "https://example.com/about-romchttps://www.tewhatuora.govt.nz/our-health-system/primary-care-sector/primary-health-organisations/enrolment-with-a-general-practice-and-primary-health-organisation",
+        url: "https://www.tewhatuora.govt.nz/our-health-system/primary-care-sector/primary-health-organisations/enrolment-with-a-general-practice-and-primary-health-organisation",
       },
       {
         text: "Code of Health and Disability Services Consumers' Rights",

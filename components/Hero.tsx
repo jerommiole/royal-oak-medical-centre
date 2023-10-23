@@ -17,10 +17,7 @@ const Hero = () => {
         </p>
 
         <div className="my-11 w-full flex flex-col gap-3 sm:flex-row">
-          <Link
-            target="_blank"
-            href="https://c.vensa.com/practice-profile/06c3907d-7583-dd4a-ae8a-6c678a748b79"
-          >
+          <Link href="/services">
             <Button type="button" title="Our Services" variant="btn_blue" />
           </Link>
         </div>

@@ -48,6 +48,9 @@ module.exports = {
       borderRadius: {
         "5xl": "40px",
       },
+      listStyleImage: {
+        checkmark: "url('/checkmark.svg')",
+      },
     },
   },
   plugins: [],
