@@ -27,12 +27,17 @@ const Navbar = () => {
       </ul>
 
       <div className="lg:flexCenter hidden">
-        <Button
-          type="button"
-          title="Make an Appointment"
-          icon="/user.svg"
-          variant="btn_dark_green"
-        />
+        <Link
+          href="https://c.vensa.com/practice-profile/06c3907d-7583-dd4a-ae8a-6c678a748b79"
+          target="_blank"
+        >
+          <Button
+            type="button"
+            title="Make an Appointment"
+            icon="/calendar.svg"
+            variant="btn_blue"
+          />
+        </Link>
       </div>
 
       <Image
