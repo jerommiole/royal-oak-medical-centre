@@ -4,18 +4,25 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="flexCenter flex-col py-10">
-      <div className="padding-container max-container w-full pb-24">
-        <p className="uppercase regular-18 -mt-1 mb-3 text-blue-50">
-          Your Health, Our Priority
-        </p>
-        <h2 className="bold-40 lg:bold-64">Our Comprehensive Services</h2>
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[620px]">
-          At Royal Oak Medical Centre, we&#39;re dedicated to offering
-          comprehensive healthcare services to patients of all ages. Our focus
-          is on delivering high-quality care without compromising affordability,
-          ensuring your health is our top priority.
-        </p>
+    <section className="flexCenter flex-col">
+      <div className="hero-cover">
+        <div className="flex flex-1 flex-col ">
+          <p className="uppercase regular-18 -mt-1 mb-3 text-gray-10 ">
+            Your Health, Our Priority
+          </p>
+          <h2 className="bold-40 lg:bold-64 text-gray-10 ">
+            Our Comprehensive Services
+          </h2>
+          <p className="regular-16 mt-6 text-gray-10 xl:max-w-[620px]">
+            At Royal Oak Medical Centre, we're dedicated to offering
+            comprehensive healthcare services to patients of all ages. Our focus
+            is on delivering high-quality care without compromising
+            affordability, ensuring your health is our top priority.
+          </p>
+        </div>
+      </div>
+
+      <div className="padding-container max-container w-full md:py-2 lg:py-24">
         <div className="py-12 flex">
           <div className="flex flex-1 justify-center">
             <Image src="/doctor.svg" alt="phone" width={250} height={815} />
