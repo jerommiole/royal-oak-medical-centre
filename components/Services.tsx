@@ -23,11 +23,17 @@ const Services = () => {
       </div>
 
       <div className="padding-container max-container w-full md:py-2 lg:py-24">
-        <div className="py-12 flex">
-          <div className="flex flex-1 justify-center">
-            <Image src="/doctor.svg" alt="phone" width={250} height={815} />
+        <div className="py-12 flex gap-0">
+          <div className="flex flex-1 flex-col justify-center">
+            <Image
+              src="/doctor-woman.png"
+              alt="phone"
+              width={500}
+              height={500}
+              className="object-contain"
+            />
           </div>
-          <div className="z-20 flex w-full flex-col lg:w-[60%]">
+          <div className="flex w-full flex-col lg:w-[60%]">
             <ul className="grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
               {SERVICES.map((feature) => (
                 <FeatureItem

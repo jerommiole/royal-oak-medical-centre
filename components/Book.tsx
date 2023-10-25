@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,20 +8,28 @@ const Book = () => {
       <div className="get-app">
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">
-            Book an appointment now!
+            Book an Appointment Now!
           </h2>
-          <p className="regular-16 text-gray-10"></p>
-          <div className="flex flex-col gap-3 whitespace-nowrap xl:flex-row">
+          <p className="regular-16 text-gray-10">
+            Prioritize your health. Book an appointment with us today.
+          </p>
+          <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
             <Link
-              target="_blank"
+              className="flexCenter gap-3 rounded-full border btn_white w-full"
               href="https://c.vensa.com/practice-profile/06c3907d-7583-dd4a-ae8a-6c678a748b79"
+              target="_blank"
             >
-              <Button
-                type="button"
-                title="Make an appointment"
-                icon="/calendar-blue.png"
-                variant="btn_white"
-              />
+              <label className="bold-16 whitespace-nowrap cursor-pointer">
+                Make an Appointment
+              </label>
+            </Link>
+            <Link
+              className="flexCenter gap-3 rounded-full border btn_dark_green_outline w-full"
+              href="/contact"
+            >
+              <label className="bold-16 whitespace-nowrap cursor-pointer">
+                Contact Us
+              </label>
             </Link>
           </div>
         </div>
