@@ -1,4 +1,4 @@
-# Royal Oak Medical Centre | ROMC (On-going project)
+# Royal Oak Medical Centre | ROMC
 
 ### My website is a testament to my passion for innovation and design. Developed with React, Next.js 13, TypeScript, and adorned with sleek visuals created through AI platforms, it's a unique digital experience that showcases the convergence of technology and creativity.
 At ROMC, I've combined powerful technologies with user-friendly design to ensure a smooth and visually engaging user journey. What sets my website apart is the way I approach visual content.
