@@ -3,7 +3,8 @@
 ### My website is a testament to my passion for innovation and design. Developed with React, Next.js 13, TypeScript, and adorned with sleek visuals created through AI platforms, it's a unique digital experience that showcases the convergence of technology and creativity.
 At ROMC, I've combined powerful technologies with user-friendly design to ensure a smooth and visually engaging user journey. What sets my website apart is the way I approach visual content.
 
-![1](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/0efbfddf-2112-42f4-adae-27dfc6997e13)
+![1](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/ef3a1635-8a7a-4b6b-91f9-d1671c6d881a)
+
 
 ## Key Features:
 - React and Next.js 13: My website is powered by the latest web development frameworks, guaranteeing a seamless and responsive user experience.
@@ -11,8 +12,9 @@ At ROMC, I've combined powerful technologies with user-friendly design to ensure
 - Tailwind CSS: The sleek and modern design of my website is achieved through the elegant styling of Tailwind CSS, providing a visually pleasing and harmonious experience.
 - AI-Generated Images: What makes my website truly unique is its ability to craft and incorporate AI-generated images. Each visit is a journey through the perfect fusion of technology and artistic expression.
 
-![2](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/17bee80d-ec14-4ce9-89ca-7716296c8174)
-![4](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/c612d517-7880-4344-b2a5-45458a5e66b1)
-![3](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/4e95f707-0a74-4c04-96c6-97e2e20f197c)
+![2](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/c390ee15-1336-4ed3-bb89-c2b3364b6927)
+![4](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/f1917da3-834f-4fb8-81fe-99cad4a334ab)
+![3](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/24fd80ab-f55f-4cb7-a70b-0e69d8ce6743)
+
 
 Join me in embracing the future of web development and design. Start your journey with my website now!
