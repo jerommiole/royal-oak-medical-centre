@@ -1,14 +1,16 @@
-import Book from "@/components/Book";
 import About from "@/components/About";
-import Camp from "@/components/Camp";
-import Guide from "@/components/Guide";
+import Book from "@/components/Book";
 import Doctor from "@/components/Doctor";
+import Fees from "@/components/Fees";
+import NewServicesFees from "@/components/NewServicesFees";
 
 const Page = () => {
   return (
     <>
       <About />
       <Doctor />
+      <Fees />
+      <NewServicesFees />
     </>
   );
 };

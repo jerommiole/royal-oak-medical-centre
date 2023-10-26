@@ -1,11 +1,11 @@
-import GetApp from "@/components/Book";
+import Book from "@/components/Book";
 import Services from "@/components/Services";
 
 const Page = () => {
   return (
     <>
       <Services />
-      <GetApp />
+      <Book />
     </>
   );
 };

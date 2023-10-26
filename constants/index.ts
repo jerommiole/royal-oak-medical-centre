@@ -97,6 +97,46 @@ export const SERVICES = [
   },
 ];
 
+// FEES
+// Schedule of Fees
+export const SCHEDULE_FEES = [
+  {
+    consultation: "0 - 13 years",
+    acc: "Free",
+    enrolled: "Free",
+    casual: "$45",
+    csc: "$40",
+  },
+  {
+    consultation: "14 – 17 years",
+    acc: "$45",
+    enrolled: "$45",
+    casual: "$75",
+    csc: "$70",
+  },
+  {
+    consultation: "18 – 44 years",
+    acc: "$55",
+    enrolled: "$55",
+    casual: "$95",
+    csc: "$85",
+  },
+  {
+    consultation: "18 – 44 years",
+    acc: "$55",
+    enrolled: "$55",
+    casual: "$95",
+    csc: "$85",
+  },
+  {
+    consultation: "65 years +",
+    acc: "$45",
+    enrolled: "$45",
+    casual: "$75",
+    csc: "$70",
+  },
+];
+
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
