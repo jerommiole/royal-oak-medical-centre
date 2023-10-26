@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Royal Oak Medical Centre | ROMC (On-going project)
 
-## Getting Started
+### My website is a testament to my passion for innovation and design. Developed with React, Next.js 13, TypeScript, and adorned with sleek visuals created through AI platforms, it's a unique digital experience that showcases the convergence of technology and creativity.
+At ROMC, I've combined powerful technologies with user-friendly design to ensure a smooth and visually engaging user journey. What sets my website apart is the way I approach visual content.
 
-First, run the development server:
+![1](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/0efbfddf-2112-42f4-adae-27dfc6997e13)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features:
+- React and Next.js 13: My website is powered by the latest web development frameworks, guaranteeing a seamless and responsive user experience.
+- TypeScript: My commitment to code quality and reliability is reinforced by TypeScript, ensuring that interactions with my website are both smooth and dependable.
+- Tailwind CSS: The sleek and modern design of my website is achieved through the elegant styling of Tailwind CSS, providing a visually pleasing and harmonious experience.
+- AI-Generated Images: What makes my website truly unique is its ability to craft and incorporate AI-generated images. Each visit is a journey through the perfect fusion of technology and artistic expression.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![2](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/17bee80d-ec14-4ce9-89ca-7716296c8174)
+![4](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/c612d517-7880-4344-b2a5-45458a5e66b1)
+![3](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/4e95f707-0a74-4c04-96c6-97e2e20f197c)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Join me in embracing the future of web development and design. Start your journey with my website now!
