@@ -3,7 +3,7 @@
 ### My website is a testament to my passion for innovation and design. Developed with React, Next.js 13, TypeScript, and adorned with sleek visuals created through AI platforms, it's a unique digital experience that showcases the convergence of technology and creativity.
 At ROMC, I've combined powerful technologies with user-friendly design to ensure a smooth and visually engaging user journey. What sets my website apart is the way I approach visual content.
 
-![1](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/ef3a1635-8a7a-4b6b-91f9-d1671c6d881a)
+![romc](https://github.com/jerommiole/royal-oak-medical-centre/assets/8807678/52dc2120-d499-41bb-9425-7314fd2b1242)
 
 
 ## Key Features:
