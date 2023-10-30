@@ -108,21 +108,21 @@ export const SCHEDULE_FEES = [
     csc: "$40",
   },
   {
-    consultation: "14 – 17 years",
+    consultation: "14 - 17 years",
     acc: "$45",
     enrolled: "$45",
     casual: "$75",
     csc: "$70",
   },
   {
-    consultation: "18 – 44 years",
+    consultation: "18 - 44 years",
     acc: "$55",
     enrolled: "$55",
     casual: "$95",
     csc: "$85",
   },
   {
-    consultation: "18 – 44 years",
+    consultation: "18 - 44 years",
     acc: "$55",
     enrolled: "$55",
     casual: "$95",
@@ -134,6 +134,62 @@ export const SCHEDULE_FEES = [
     enrolled: "$45",
     casual: "$75",
     csc: "$70",
+  },
+];
+
+// New Services Fees
+export const NEW_SERVICES_FEES = [
+  {
+    service: "Nurse Consultation",
+    fee: "$165",
+  },
+  {
+    service: "Iron Infusion",
+    fee: "$165",
+  },
+  {
+    service: "Vitamin C Infusion*",
+    fee: "$185",
+  },
+  {
+    service: "Smear Procedure",
+    fee: "$35",
+  },
+  {
+    service: "Injection Fee",
+    fee: "$25",
+  },
+  {
+    service: "Liquid Nitrogen",
+    fee: "$28",
+  },
+  {
+    service: "Driving Medical",
+    fee: "$95",
+  },
+  {
+    service: "Change of Dressing",
+    fee: "$25",
+  },
+  {
+    service: "Removal of Stitches",
+    fee: "$25",
+  },
+  {
+    service: "Ear Syringe / Ear Suction",
+    fee: "$30",
+  },
+  {
+    service: "Blood Test",
+    fee: "$15",
+  },
+  {
+    service: "Blood Pressure",
+    fee: "$10",
+  },
+  {
+    service: "Circumcision",
+    fee: "$700-$850",
   },
 ];
 

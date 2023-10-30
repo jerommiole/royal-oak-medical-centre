@@ -149,6 +149,9 @@ body {
   }
 
   /* Hero */
+  .hero-bg {
+    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center xl:-top-60;
+  }
   .hero-map {
     @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
   }
@@ -175,7 +178,7 @@ body {
 
   /* hero cover */
   .hero-cover {
-    @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[400px] 2xl:rounded-5xl;
+    @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[400px] 2xl:rounded-5xl;
   }
 }
 

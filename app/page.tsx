@@ -1,5 +1,5 @@
 import Camp from "@/components/Camp";
-import GetApp from "@/components/Book";
+import Book from "@/components/Book";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import OperatingHours from "@/components/OperatingHours";
@@ -12,7 +12,7 @@ export default function Home() {
       <Intro />
       <OperatingHours />
       <Appointment />
-      <GetApp />
+      <Book />
       {/* <Camp /> */}
       {/* <Guide /> */}
     </>
