@@ -1,16 +1,17 @@
 import About from "@/components/About";
-import Book from "@/components/Book";
 import Doctor from "@/components/Doctor";
-import Fees from "@/components/Fees";
+import ScheduleFees from "@/components/ScheduleFees";
 import NewServicesFees from "@/components/NewServicesFees";
+import Book from "@/components/Book";
 
 const Page = () => {
   return (
     <>
       <About />
       <Doctor />
-      <Fees />
+      <ScheduleFees />
       <NewServicesFees />
+      <Book />
     </>
   );
 };

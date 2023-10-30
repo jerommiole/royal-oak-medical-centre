@@ -3,10 +3,10 @@ import Image from "next/image";
 const Doctor = () => {
   return (
     <section className="padding-container max-container flex-row lg:flex w-full py-24 gap-16">
-      <div className="flex flex-1 flex-col justify-center items-center gap-4 pb-4">
+      <div className="flex flex-1 flex-col justify-center items-center gap-3 pb-4">
         <Image src="/dr-oliver.png" alt="Dr Oliver" width={550} height={870} />
         <h2 className="bold-40">Dr. Oliver Samin</h2>
-        <p className="regular-16 italic text-gray-30">
+        <p className="regular-16 italic text-gray-30 text-center">
           Medical Director & GP, ROMC <br />
           Director of Medical Services, NZ Philippines Business Council
         </p>
@@ -35,8 +35,9 @@ const Doctor = () => {
           His extensive experience in these areas makes him a trusted and
           respected member of our healthcare team.
         </p>
-        <p className="font-bold">Beyond the Clinic:</p>
         <p className="regular-16 text-gray-50">
+          <span className="font-bold">Beyond the Clinic:</span>
+          <br />
           When he's not in the clinic, Dr. Samin enjoys pursuing his passion for
           photography, capturing the beauty of the world through his lens. He's
           also known to strike pins at the ten-pin bowling alley, showcasing his

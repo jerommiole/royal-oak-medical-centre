@@ -5,15 +5,15 @@ import React from "react";
 const Services = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className="hero-cover">
+      <div className="hero-cover bg-oak-tree">
         <div className="flex flex-1 flex-col ">
-          <p className="uppercase regular-18 -mt-1 mb-3 text-gray-10 ">
+          <p className="uppercase regular-18 -mt-1 mb-3 text-white">
             Your Health, Our Priority
           </p>
-          <h2 className="bold-40 lg:bold-64 text-gray-10 ">
+          <h2 className="bold-40 lg:bold-64 text-white">
             Our Comprehensive Services
           </h2>
-          <p className="regular-16 mt-6 text-gray-10 xl:max-w-[620px]">
+          <p className="regular-16 mt-6 text-white xl:max-w-[620px]">
             At Royal Oak Medical Centre, we're dedicated to offering
             comprehensive healthcare services to patients of all ages. Our focus
             is on delivering high-quality care without compromising
