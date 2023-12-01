@@ -96,6 +96,30 @@ export const SERVICES = [
   },
 ];
 
+// GUIDELINE FOR APPOINTMENT SECTION
+export const APPOINTMENT_GUIDELINES = [
+  {
+    title: "Step 1",
+    image: "/step1.png",
+    desc: "Choose a date and time, then scroll to find an available doctor and appointment that suits you.",
+  },
+  {
+    title: "Step 2",
+    image: "/step2.png",
+    desc: "If you don't have a Vensa login, click 'I'm new here' and proceed to fill out the patient details. If you're already signed up, click 'login' to continue.",
+  },
+  {
+    title: "Step 3",
+    image: "/step3.png",
+    desc: "Once you have successfully completed the booking process, a confirmation text message will be sent to your mobile phone.",
+  },
+  {
+    title: "Step 4",
+    image: "/step4.png",
+    desc: "Once your appointment is confirmed, sign up with Vensa for easy appointment management using just your email and password.",
+  },
+];
+
 // FEES
 // Schedule of Fees
 export const SCHEDULE_FEES = [
