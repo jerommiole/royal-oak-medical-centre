@@ -4,11 +4,12 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row md:flex-row">
       {/* <div className="hero-map" /> */}
       <div className="hero-bg" />
-      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-        <h1 className="bold-52 lg:bold-88 text-gray-90 xl:max-w-[600px]">
+
+      <div className="relative z-20 flex flex-1 flex-col md:w-1/2">
+        <h1 className="bold-52 lg:bold-64 text-gray-90 md:max-w-[520px]">
           Welcome to your trusted partner in healthcare.
         </h1>
         <p className="regular-16 mt-6 md:max-w-[520px] text-gray-90">
@@ -22,11 +23,12 @@ const Hero = () => {
           </Link>
         </div>
       </div>
+
       <div className="relative flex flex-1 items-end">
-        <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+        <div className="relative z-20 flex w-[268px] flex-col gap-6 rounded-3xl bg-blue-10 px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular-16 text-gray-20">Location</p>
+              <p className="regular-16 text-gray-10">Location</p>
             </div>
             <p className="bold-20 text-white">
               <Link
@@ -37,9 +39,8 @@ const Hero = () => {
               </Link>
             </p>
           </div>
-
           <div className="flex flex-col">
-            <p className="regular-16 block text-gray-20">Phone</p>
+            <p className="regular-16 block text-gray-10">Phone</p>
             <p className="bold-20 text-white">09 625 9221</p>
           </div>
         </div>

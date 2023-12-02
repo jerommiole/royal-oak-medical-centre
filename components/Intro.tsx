@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <section className="flexCenter w-full flex-col pb-[100px]">
+    <section className="flexCenter w-full flex-col pb-[100px] pt-[100px]">
       <div className="pattern-blue">
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-6">
           <h2 className="bold-40">Important Notice</h2>

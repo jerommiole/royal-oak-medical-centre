@@ -26,10 +26,10 @@ const Services = () => {
         <div className="py-12 flex gap-0">
           <div className="flex flex-1 flex-col justify-center">
             <Image
-              src="/doctor-woman.png"
+              src="/doctor-woman.jpg"
               alt="phone"
               width={500}
-              height={500}
+              height={684}
               className="object-contain"
             />
           </div>

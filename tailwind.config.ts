@@ -23,6 +23,7 @@ module.exports = {
           50: "#FF814C",
         },
         blue: {
+          10: "#14a8c6",
           50: "#0070c0",
           90: "#003459",
         },
@@ -31,11 +32,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "bg-img-1": "url('/img-1.png')",
-        "bg-img-2": "url('/img-2.png')",
-        "feature-bg": "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        "pattern-blue": "url('/pattern-blue.png')",
+        pattern: "url('/pattern.jpg')",
+        "pattern-blue": "url('/pattern-blue.jpg')",
         "pattern-2": "url('/hero-bg.svg')",
         services: "url('/services.jpg')", // Hero bg for service page
         about: "url('/about.jpg')", // Hero bg for about page

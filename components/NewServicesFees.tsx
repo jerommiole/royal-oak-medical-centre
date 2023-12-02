@@ -3,7 +3,6 @@ import { NEW_SERVICES_FEES } from "@/constants";
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -37,13 +36,6 @@ const NewServicesFees = () => {
           </Table>
         </div>
         <div className="flex w-full flex-col lg:w-[40%] gap-7 justify-center">
-          {/* <Image
-            src="/doctor-patient2.jpg"
-            alt="boat"
-            width={600}
-            height={900}
-            className="w-full object-cover object-center 2xl:rounded-5xl"
-          /> */}
           <p className="regular-16 text-gray-50 italic">
             In a life-threatening situation, call 111 for an ambulance, or visit
             the emergency department at Auckland City Hospital.
