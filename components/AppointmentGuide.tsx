@@ -52,7 +52,7 @@ const FeatureItem = ({ title, image, desc }: FeatureItem) => {
         <Image src={image} alt="map" width={200} height={399} />
       </div>
       <div className="text-center">
-        <h2 className="bold-20 lg:bold-32 mt-5 mb-3 capitalize">{title}</h2>
+        <h3 className="bold-20 lg:bold-32 mt-5 mb-3 capitalize">{title}</h3>
         <p>{desc}</p>
       </div>
     </li>

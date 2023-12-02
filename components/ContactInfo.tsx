@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { OPERATING_HOURS } from "@/constants";
+import Link from "next/link";
+import { OPERATING_HOURS, EMAIL, PHONE, LOCATION } from "@/constants";
 
 const ContactInfo = () => {
   return (
@@ -21,30 +22,46 @@ const ContactInfo = () => {
           assist.
         </p>
         <div>
-          <h2 className="bold-20 lg:bold-32 mt-5 capitalize">Email</h2>
-          <p className="mt-2">
-            <a href="mailto:reception@royaloakmedical.co.nz?subject=Enquiry for">
-              reception@royaloakmedical.co.nz
-            </a>
-          </p>
+          <h2 className="bold-20 lg:bold-32 mt-5 mb-2 capitalize">Email</h2>
+          <Link
+            className="text-blue-50 regular-18"
+            href={`mailto:${EMAIL}?subject=Enquiry for`}
+          >
+            {EMAIL}
+          </Link>
         </div>
 
         <div>
-          <h2 className="bold-20 lg:bold-32 mt-5 capitalize">Phone Number</h2>
-          <p>09 625 9221</p>
+          <h2 className="bold-20 lg:bold-32 mt-5 mb-2 capitalize">Phone</h2>
+          <Link className="text-blue-50 regular-18" href={`tel:${PHONE}`}>
+            {PHONE}
+          </Link>
         </div>
 
         <div>
-          <h2 className="bold-20 lg:bold-32 mt-5 capitalize">Address</h2>
-          <a href="https://www.google.com/maps/dir//691+Manukau+Road+Royal+Oak+Auckland+1023/@-36.9100387,174.7746125,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6d0d48a73e55d32b:0xfd8c78148d685d4e!2m2!1d174.7746125!2d-36.9100387?entry=ttu">
-            691 Manukau Road, Royal Oak, Auckland 1023
-          </a>
+          <h2 className="bold-20 lg:bold-32 mt-5 mb-2 capitalize">Address</h2>
+          <Link
+            className="text-blue-50 regular-18"
+            href={LOCATION.googleMapUrl}
+            target="_blank"
+          >
+            {LOCATION.address}
+          </Link>
         </div>
         <div>
-          <h2 className="bold-20 lg:bold-32 mt-5 capitalize">Office Hours</h2>
+          <h2 className="bold-20 lg:bold-32 mt-5 mb-2 capitalize">
+            Office Hours
+          </h2>
           {OPERATING_HOURS.map((schedule: any) => (
-            <p key={schedule.day}>
-              {schedule.day}: {schedule.time}
+            <p className="regular-18" key={schedule.day}>
+              <strong>{schedule.day}</strong>:{" "}
+              <span
+                style={{
+                  color: schedule.time === "Closed" ? "red" : "#0070C0",
+                }}
+              >
+                {schedule.time}
+              </span>
             </p>
           ))}
         </div>
