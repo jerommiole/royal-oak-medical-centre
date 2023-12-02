@@ -23,7 +23,7 @@ const Services = () => {
       </div>
 
       <div className="padding-container max-container w-full md:py-2 lg:py-20">
-        <div className="py-12 flex gap-0">
+        <div className="py-12 flex gap-16">
           <div className="flex flex-1 flex-col justify-center">
             <Image
               src="/doctor-woman.jpg"
