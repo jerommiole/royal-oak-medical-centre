@@ -240,6 +240,22 @@ export const NEW_SERVICES_FEES = [
   },
 ];
 
+// OPERATING HOURS SECTION
+export const OPERATING_HOURS = [
+  {
+    day: "Monday to Friday",
+    time: "9:00AM - 5:30PM",
+  },
+  {
+    day: "Saturday",
+    time: "9:00AM - 12:00PM",
+  },
+  {
+    day: "Sunday",
+    time: "Closed",
+  },
+];
+
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {

@@ -5,7 +5,7 @@ import React from "react";
 const Services = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className="hero-cover bg-oak-tree">
+      <div className="hero-cover bg-services">
         <div className="flex flex-1 flex-col ">
           <p className="uppercase regular-18 -mt-1 mb-3 text-white">
             Your Health, Our Priority

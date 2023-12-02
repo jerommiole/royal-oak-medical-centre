@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { OPERATING_HOURS } from "@/constants";
 
 const OperatingHours = () => {
   return (
@@ -53,25 +54,16 @@ const OperatingHours = () => {
             className="h-full w-auto"
           />
           <div className="flexBetween flex-col">
-            <div className="flex w-full flex-col">
-              <p className="bold-20 mt-2">Monday to Friday</p>
-              <div className="flexBetween w-full">
-                <p className="bold-16 text-blue-50">9:00AM - 5:30PM</p>
+            {OPERATING_HOURS.map((schedule: any) => (
+              <div key={schedule.day} className="flex w-full flex-col">
+                <p className="bold-20 mt-2">{schedule.day}</p>
+                <div className="flexBetween w-full">
+                  <div className="flexBetween w-full">
+                    <p className="bold-16 text-blue-50">{schedule.time}</p>
+                  </div>
+                </div>
               </div>
-            </div>
-
-            <div className="flex w-full flex-col">
-              <p className="bold-20 mt-2">Saturday</p>
-              <div className="flexBetween w-full">
-                <p className="bold-16 text-blue-50">9:00AM - 12:00PM</p>
-              </div>
-            </div>
-            <div className="flex w-full flex-col">
-              <p className="bold-20 mt-2">Sunday</p>
-              <div className="flexBetween w-full">
-                <p className="bold-16 text-blue-50">Closed</p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

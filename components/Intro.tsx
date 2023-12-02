@@ -3,20 +3,9 @@ import Image from "next/image";
 const Intro = () => {
   return (
     <section className="flexCenter w-full flex-col pb-[100px]">
-      <div className="get-app">
+      <div className="pattern-blue">
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-6">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">
-            Important Notice
-          </h2>
-          <p className="regular-16 text-gray-10">
-            Our phone system is currently down. Please visit our website to book
-            an appointment or order prescriptions, or email us at
-            reception@royaloakmedical.co.nz instead.
-          </p>
-          <p className="regular-16 text-gray-10">
-            We apologize for any inconvenience this may cause, and we are
-            working diligently to resolve the issue as soon as possible.
-          </p>
+          <h2 className="bold-40">Important Notice</h2>
           <p className="regular-16 text-gray-10">
             Royal Oak Medical Centre is dedicated to maintaining a safe
             environment for our patients and everyone who visits our clinic. We
@@ -32,12 +21,7 @@ const Intro = () => {
         </div>
 
         <div className="flex flex-1 items-center justify-end">
-          <Image
-            src="/megaphone.png"
-            alt="megaphone"
-            width={550}
-            height={870}
-          />
+          <Image src="/doctor2.png" alt="Doctor" width={450} height={450} />
         </div>
       </div>
     </section>

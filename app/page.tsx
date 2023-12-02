@@ -1,4 +1,3 @@
-import Camp from "@/components/Camp";
 import Book from "@/components/Book";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
@@ -13,8 +12,6 @@ export default function Home() {
       <OperatingHours />
       <Appointment />
       <Book />
-      {/* <Camp /> */}
-      {/* <Guide /> */}
     </>
   );
 }
