@@ -17,7 +17,11 @@ const Footer = () => {
               <FooterColumn title={columns.title} key={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link) => (
-                    <Link href={link.url} key={link.url}>
+                    <Link
+                      href={link.url}
+                      key={link.url}
+                      target={columns.title !== "Links" ? "_blank" : undefined}
+                    >
                       {link.text}
                     </Link>
                   ))}
