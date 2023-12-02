@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { OPERATING_HOURS } from "@/constants";
+import { OPERATING_HOURS, VENSA_URL } from "@/constants";
 
 const OperatingHours = () => {
   return (
@@ -24,7 +24,7 @@ const OperatingHours = () => {
               For Saturday clinic schedules, please book online to this{" "}
               <Link
                 target="_blank"
-                href="https://c.vensa.com/practice-profile/06c3907d-7583-dd4a-ae8a-6c678a748b79"
+                href={VENSA_URL}
                 className="underline underline-offset-2 text-blue-50"
               >
                 LINK

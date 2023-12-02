@@ -6,14 +6,6 @@ export const NAV_LINKS = [
   { href: "/contact", key: "contact", label: "Contact" },
 ];
 
-// CAMP SECTION
-export const PEOPLE_URL = [
-  "/person-1.png",
-  "/person-2.png",
-  "/person-3.png",
-  "/person-4.png",
-];
-
 // FEATURES SECTION
 export const FEATURES = [
   {
@@ -292,6 +284,10 @@ export const FOOTER_CONTACT_INFO = {
     { label: "Email", value: "reception@royaloakmedical.co.nz" },
   ],
 };
+
+// config.ts
+export const VENSA_URL =
+  "https://c.vensa.com/practice-profile/06c3907d-7583-dd4a-ae8a-6c678a748b79";
 
 export const SOCIALS = {
   title: "Social",

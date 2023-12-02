@@ -1,4 +1,4 @@
-import { NAV_LINKS } from "@/constants";
+import { NAV_LINKS, VENSA_URL } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
@@ -27,10 +27,7 @@ const Navbar = () => {
       </ul>
 
       <div className="lg:flexCenter hidden">
-        <Link
-          href="https://c.vensa.com/practice-profile/06c3907d-7583-dd4a-ae8a-6c678a748b79"
-          target="_blank"
-        >
+        <Link href={VENSA_URL} target="_blank">
           <Button
             type="button"
             title="Make an Appointment"

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { VENSA_URL } from "@/constants";
 
 const Book = () => {
   return (
@@ -16,7 +17,7 @@ const Book = () => {
           <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
             <Link
               className="flexCenter gap-3 rounded-full border btn_white w-full"
-              href="https://c.vensa.com/practice-profile/06c3907d-7583-dd4a-ae8a-6c678a748b79"
+              href={VENSA_URL}
               target="_blank"
             >
               <label className="bold-16 whitespace-nowrap cursor-pointer">
