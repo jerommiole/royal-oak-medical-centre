@@ -35,9 +35,11 @@ module.exports = {
         "bg-img-2": "url('/img-2.png')",
         "feature-bg": "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
+        "pattern-blue": "url('/pattern-blue.png')",
         "pattern-2": "url('/hero-bg.svg')",
-        "oak-tree": "url('/service-cover.png')",
-        "clinic-about": "url('/about-cover.png')",
+        services: "url('/services.jpg')", // Hero bg for service page
+        about: "url('/about.jpg')", // Hero bg for about page
+        contact: "url('/contact.jpg')", // Hero bg for contact page
       },
       screens: {
         xs: "400px",

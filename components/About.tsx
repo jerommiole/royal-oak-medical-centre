@@ -2,10 +2,10 @@ import { SERVICES } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
-const About = () => {
+const HeroAbout = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className="hero-cover bg-clinic-about">
+      <div className="hero-cover bg-about">
         <div className="flex flex-1 flex-col ">
           <p className="uppercase regular-18 -mt-1 mb-3 text-white ">
             Our Commitment to Your Health
@@ -26,4 +26,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default HeroAbout;
