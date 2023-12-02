@@ -88,7 +88,6 @@ export const SERVICES = [
   },
 ];
 
-// GUIDELINE FOR APPOINTMENT SECTION
 export const APPOINTMENT_GUIDELINES = [
   {
     title: "Step 1",
@@ -112,7 +111,6 @@ export const APPOINTMENT_GUIDELINES = [
   },
 ];
 
-// PRESCRIPTIONS SECTION
 export const PRESCRIPTIONS = [
   {
     title: "Step 1",
@@ -136,8 +134,6 @@ export const PRESCRIPTIONS = [
   },
 ];
 
-// FEES
-// Schedule of Fees
 export const SCHEDULE_FEES = [
   {
     consultation: "0 - 13 years",
@@ -176,7 +172,6 @@ export const SCHEDULE_FEES = [
   },
 ];
 
-// New Services Fees
 export const NEW_SERVICES_FEES = [
   {
     service: "Nurse Consultation",
@@ -232,7 +227,6 @@ export const NEW_SERVICES_FEES = [
   },
 ];
 
-// OPERATING HOURS SECTION
 export const OPERATING_HOURS = [
   {
     day: "Monday to Friday",
@@ -248,7 +242,6 @@ export const OPERATING_HOURS = [
   },
 ];
 
-// FOOTER SECTION
 export const FOOTER_LINKS = [
   {
     title: "Links",
@@ -277,25 +270,15 @@ export const FOOTER_LINKS = [
   },
 ];
 
-export const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
-  links: [
-    { label: "Phone", value: "09-625-9221" },
-    { label: "Email", value: "reception@royaloakmedical.co.nz" },
-  ],
-};
-
-// config.ts
 export const VENSA_URL =
   "https://c.vensa.com/practice-profile/06c3907d-7583-dd4a-ae8a-6c678a748b79";
 
-export const SOCIALS = {
-  title: "Social",
-  links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
-  ],
+export const EMAIL = "reception@royaloakmedical.co.nz";
+
+export const PHONE = "09-625-9221";
+
+export const LOCATION = {
+  address: "Shop 55, Level 1, 691 Manukau Road, Royal Oak, Auckland 1023",
+  googleMapUrl:
+    "https://www.google.com/maps/dir//Shop+55,+Level+1%2F691+Manukau+Road,+Royal+Oak,+Auckland+1023/@-36.9100316,174.7334129,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6d0d48a73e55d32b:0xf1ff78de8047db4!2m2!1d174.7746125!2d-36.9100387?entry=ttu",
 };

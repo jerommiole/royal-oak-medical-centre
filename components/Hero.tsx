@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "./Button";
 import Link from "next/link";
+import { LOCATION, PHONE } from "@/constants";
 
 const Hero = () => {
   return (
@@ -31,17 +32,16 @@ const Hero = () => {
               <p className="regular-16 text-gray-10">Location</p>
             </div>
             <p className="bold-20 text-white">
-              <Link
-                href="https://www.google.com/maps/dir//691+Manukau+Road+Royal+Oak+Auckland+1023/@-36.9100387,174.7746125,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6d0d48a73e55d32b:0xfd8c78148d685d4e!2m2!1d174.7746125!2d-36.9100387?entry=ttu"
-                target="_blank"
-              >
-                Shop 55, Level 1, 691 Manukau Road, Royal Oak, Auckland 1023
+              <Link href={LOCATION.googleMapUrl} target="_blank">
+                {LOCATION.address}
               </Link>
             </p>
           </div>
           <div className="flex flex-col">
             <p className="regular-16 block text-gray-10">Phone</p>
-            <p className="bold-20 text-white">09 625 9221</p>
+            <Link className="bold-20 text-white" href={`tel:${PHONE}`}>
+              {PHONE}
+            </Link>
           </div>
         </div>
       </div>

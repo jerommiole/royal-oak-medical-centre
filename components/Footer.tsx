@@ -1,7 +1,9 @@
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS } from "@/constants";
+import { EMAIL, PHONE, FOOTER_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+const currentYear: number = new Date().getFullYear();
 
 const Footer = () => {
   return (
@@ -30,29 +32,34 @@ const Footer = () => {
             ))}
 
             <div className="flex flex-col gap-5">
-              <FooterColumn title={FOOTER_CONTACT_INFO.title}>
-                {FOOTER_CONTACT_INFO.links.map((link) => (
-                  <Link
-                    href={link.value}
-                    key={link.label}
-                    className="flex gap-4 md:flex-col lg:flex-row"
-                  >
-                    <p className="whitespace-nowrap">{link.label}:</p>
-                    <p className="medium-14 whitespace-nowrap text-blue-70">
-                      {link.value}
-                    </p>
-                  </Link>
-                ))}
-              </FooterColumn>
+              <h4 className="bold-18 whitespace-nowrap">Contact Us</h4>
+              <Link
+                href={`tel:${PHONE}`}
+                className="flex gap-4 md:flex-col lg:flex-row"
+              >
+                <p className="whitespace-nowrap">Phone: </p>
+                <p className="whitespace-nowrap text-blue-50">{PHONE}</p>
+              </Link>
+              <Link
+                href={`mailto:${EMAIL}?subject=Enquiry for`}
+                className="flex gap-4 md:flex-col lg:flex-row"
+              >
+                <p className="whitespace-nowrap">Email: </p>
+                <p className="whitespace-nowrap text-blue-50">{EMAIL}</p>
+              </Link>
             </div>
           </div>
         </div>
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2023 Royal Oak Medical Centre | All rights reserved <br />
+          {currentYear} Royal Oak Medical Centre | All rights reserved <br />
           Designed by:{" "}
-          <Link href="https://jerommiole.com" target="_blank">
+          <Link
+            className="text-blue-50"
+            href="https://jerommiole.com"
+            target="_blank"
+          >
             jerommiole
           </Link>
         </p>

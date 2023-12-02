@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { OPERATING_HOURS, VENSA_URL } from "@/constants";
+import { EMAIL, OPERATING_HOURS, VENSA_URL } from "@/constants";
 
 const OperatingHours = () => {
   return (
@@ -21,7 +21,8 @@ const OperatingHours = () => {
               need it most.
             </p>
             <p className="regular-16 text-gray-50">
-              For Saturday clinic schedules, please book online to this{" "}
+              For <strong>Saturday</strong> clinic schedules, please book online
+              to this{" "}
               <Link
                 target="_blank"
                 href={VENSA_URL}
@@ -30,7 +31,14 @@ const OperatingHours = () => {
                 LINK
               </Link>
               , as we are NOT open EVERY Saturday. Please book appointments
-              online or email reception@royaloakmedical.co.nz. Thank you!
+              online or email{" "}
+              <a
+                href={`mailto:${EMAIL}?subject=Enquiry for`}
+                className="text-blue-50"
+              >
+                {EMAIL}
+              </a>
+              .
             </p>
           </div>
         </div>
