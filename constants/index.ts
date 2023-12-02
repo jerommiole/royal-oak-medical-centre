@@ -262,9 +262,7 @@ export const FOOTER_LINKS = [
     title: "Links",
     links: [
       { text: "About ROMC", url: "/about" },
-      { text: "Hours & Fees", url: "/fees" },
-      { text: "Prescriptions", url: "/prescriptions" },
-      { text: "Test Results", url: "/test-results" },
+      { text: "Our Services", url: "/services" },
       { text: "Contact Us", url: "/contact" },
     ],
   },
@@ -290,7 +288,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Phone", value: "09 625 9221" },
+    { label: "Phone", value: "09-625-9221" },
     { label: "Email", value: "reception@royaloakmedical.co.nz" },
   ],
 };

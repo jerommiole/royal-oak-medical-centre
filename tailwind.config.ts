@@ -32,7 +32,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        pattern: "url('/pattern.jpg')",
+        "pattern-gray": "url('/pattern-gray.jpg')",
         "pattern-blue": "url('/pattern-blue.jpg')",
         "pattern-2": "url('/hero-bg.svg')",
         services: "url('/services.jpg')", // Hero bg for service page
