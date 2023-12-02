@@ -3,7 +3,7 @@ export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/services", key: "services", label: "Services" },
   { href: "/about", key: "about", label: "About" },
-  { href: "/contact-us", key: "contact_us", label: "Contact Us" },
+  { href: "/contact", key: "contact", label: "Contact" },
 ];
 
 // CAMP SECTION
@@ -117,6 +117,30 @@ export const APPOINTMENT_GUIDELINES = [
     title: "Step 4",
     image: "/step4.png",
     desc: "Once your appointment is confirmed, sign up with Vensa for easy appointment management using just your email and password.",
+  },
+];
+
+// PRESCRIPTIONS SECTION
+export const PRESCRIPTIONS = [
+  {
+    title: "Step 1",
+    image: "/step4.png",
+    desc: "On the practice's profile page, select 'Repeat a Prescription.'",
+  },
+  {
+    title: "Step 2",
+    image: "/step4.png",
+    desc: "If you have previously created a Vensa account, you can use your email address and password to log in. If you do not yet have a Vensa account, select 'Sign up now!' to create one!",
+  },
+  {
+    title: "Step 3",
+    image: "/step4.png",
+    desc: "Once you have created your account or logged in, you will now be ready to request a repeat prescription. Select the '+' sign to get started.",
+  },
+  {
+    title: "Step 4",
+    image: "/step4.png",
+    desc: "Select 'Request a Repeat Prescription' and move through the steps to finalize your request.",
   },
 ];
 

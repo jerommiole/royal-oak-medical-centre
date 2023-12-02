@@ -1,22 +1,19 @@
-import { APPOINTMENT_GUIDELINES } from "@/constants";
+import { PRESCRIPTIONS } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
-const AppointmentGuide = () => {
+const Prescriptions = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
         <p className="uppercase regular-18 -mt-1 mb-3 text-blue-50">
-          Ensuring Smooth and Efficient Appointments
+          Managing Your Medications
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-            Appointment Guidelines
-          </h2>
+          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Prescriptions</h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-            Booking your medical appointment with Royal Oak Medical Centre is a
-            straightforward process. To ensure a smooth and efficient
-            experience, please consider the following guidelines:
+            You must have seen the doctor in the last 6 months to make a request
+            online.
           </p>
         </div>
       </div>
@@ -24,7 +21,7 @@ const AppointmentGuide = () => {
       <div className="padding-container max-container w-full md:py-2 lg:pb-20 lg:pl-20 lg:pr-20">
         <div className="flex w-full flex-col">
           <ul className="grid gap-10 md:grid-cols-4 lg:mg-20 lg:gap-20">
-            {APPOINTMENT_GUIDELINES.map((feature) => (
+            {PRESCRIPTIONS.map((feature) => (
               <FeatureItem
                 key={feature.title}
                 title={feature.title}
@@ -58,4 +55,4 @@ const FeatureItem = ({ title, image, desc }: FeatureItem) => {
     </li>
   );
 };
-export default AppointmentGuide;
+export default Prescriptions;
