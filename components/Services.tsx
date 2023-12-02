@@ -64,7 +64,7 @@ const FeatureItem = ({ title, icon, listItems }: FeatureItem) => {
         <Image src={icon} alt="map" width={28} height={28} />
       </div>
       <div className="xl:max-w-[300px]">
-        <h2 className="bold-20 lg:bold-32 mt-5 capitalize">{title}</h2>
+        <h3 className="bold-20 lg:bold-32 mt-5 capitalize">{title}</h3>
       </div>
       <ul className="regular-16 mt-5 bg-white/80 text-gray-50 lg:mt-[30px] lg:bg-none list-inside list-image-checkmark">
         {listItems.map((item, index) => (
