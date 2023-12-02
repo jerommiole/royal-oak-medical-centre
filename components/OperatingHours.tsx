@@ -38,7 +38,7 @@ const OperatingHours = () => {
 
       <div className="flexCenter max-container relative w-full">
         <Image
-          src="/doctor-patient.png"
+          src="/doctor-patient.jpg"
           alt="boat"
           width={1440}
           height={580}

@@ -4,7 +4,13 @@ const Doctor = () => {
   return (
     <section className="padding-container max-container flex-row lg:flex w-full py-24 gap-16">
       <div className="flex flex-1 flex-col justify-center items-center gap-3 pb-4">
-        <Image src="/dr-oliver.png" alt="Dr Oliver" width={550} height={870} />
+        <Image
+          className="2xl:rounded-5xl"
+          src="/dr-oliver.png"
+          alt="Dr Oliver"
+          width={550}
+          height={870}
+        />
         <h2 className="bold-40">Dr. Oliver Samin</h2>
         <p className="regular-16 italic text-gray-30 text-center">
           Medical Director & GP, ROMC <br />

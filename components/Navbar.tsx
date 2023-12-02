@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/" className="flex items-center gap-2">
         <Image src="/romc-logo.svg" alt="logo" width={80} height={80} />
-        <p className="text-3xl font-bold text-blue-50 max-sm:hidden">
+        <p className="text-3xl font-bold text-gray-700 max-sm:hidden">
           Royal Oak <br />
           Medical Centre
         </p>

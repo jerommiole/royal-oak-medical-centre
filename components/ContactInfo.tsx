@@ -6,7 +6,8 @@ const ContactInfo = () => {
     <section className="padding-container max-container flex-row lg:flex w-full py-24 gap-16">
       <div className="flex flex-1 flex-col justify-center items-center gap-3 pb-4">
         <Image
-          src="/romc-clinic.png"
+          className="2xl:rounded-5xl"
+          src="/romc-clinic.jpg"
           alt="Royal Oak Medical Centre Clinic"
           width={550}
           height={870}

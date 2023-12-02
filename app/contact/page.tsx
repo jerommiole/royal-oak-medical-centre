@@ -65,7 +65,7 @@ const Page = () => {
 
           <div className="flex flex-1 items-center justify-end">
             <Image
-              src="/romc-clinic.png"
+              src="/romc-clinic.jpg"
               alt="ROMC Clinic"
               width={550}
               height={870}
