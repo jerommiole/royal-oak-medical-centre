@@ -6,7 +6,7 @@ const Doctor = () => {
       <div className="flex flex-1 flex-col justify-center items-center gap-3 pb-4">
         <Image
           className="2xl:rounded-5xl"
-          src="/dr-oliver.jpg"
+          src="/doctor-oliver.jpg"
           alt="Dr. Oliver Samin Picture"
           width={550}
           height={870}
