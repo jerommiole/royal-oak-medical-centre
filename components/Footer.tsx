@@ -54,7 +54,7 @@ const Footer = () => {
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
           {currentYear} Royal Oak Medical Centre | All rights reserved <br />
-          Designed by:{" "}
+          Built by:{" "}
           <Link
             className="text-blue-50"
             href="https://jerommiole.com"
